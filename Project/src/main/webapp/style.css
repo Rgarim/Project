@@ -212,6 +212,29 @@ section > p {
   background: #525252;
 }
 
+.socials{
+  list-style: none;
+  display: flex;
+  align-items:left;
+  justify-content: left;
+  gap: 1rem;
+
+}
+
+.socials a{
+  padding: 7px 10px;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  background-color: #0a030959;
+  border-radius: 100%;
+  text-decoration: none;
+}
+
+.socials a:hover{
+  color:var(--white);
+  background-color: var(--text-light);
+}
+
 footer {
   width: 100%;
   display: flex;
